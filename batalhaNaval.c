@@ -19,9 +19,9 @@ int main() {
             printf("Iniciando o jogo...\n\n");
 
         //Posicionamento dos barco 1 (Horizontal)
-            tabuleiro[0][5] = 1; // A1
-            tabuleiro[0][6] = 1; // A2
-            tabuleiro[0][7] = 1; // A3
+            tabuleiro[0][5] = 1; // A5
+            tabuleiro[0][6] = 1; // A6
+            tabuleiro[0][7] = 1; // A7
 
         //posicionamento barco 2 (Vertical)
             tabuleiro[3][3] = 2; // D4
