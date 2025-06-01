@@ -2,7 +2,7 @@
 
 #define LINHAS 10
 #define COLUNAS 10
-// Definição das constantes para o número de linhas e colunas da matriz
+// Definição das constantes para o número de linhas e colunas da matriz novo
 
 int main() {
     char linha[10] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
