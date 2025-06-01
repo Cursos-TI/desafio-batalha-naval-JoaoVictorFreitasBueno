@@ -22,12 +22,8 @@ int main() {
         case 1:
             printf("Iniciando o jogo...\n\n");
 
-        //Posicionamento do barco 1 (Horizontal)
-            tabuleiro[0][5] = 1; // A5
-            tabuleiro[0][6] = 1; // A6
-            tabuleiro[0][7] = 1; // A7
 
-        // Verifica se as posições para o Barco 1 estão livres (horizontal A5, A6, A7)
+            // Verifica se as posições para o Barco 1 estão livres (horizontal)
         if (tabuleiro[0][5] == 0 && tabuleiro[0][6] == 0 && tabuleiro[0][7] == 0) {
             tabuleiro[0][5] = 1;
             tabuleiro[0][6] = 1;
@@ -35,11 +31,6 @@ int main() {
         } else {
             printf("Erro: Não foi possível posicionar o Barco 1. Posições ocupadas.\n");
     }
-
-        //posicionamento barco 2 (Vertical)
-            tabuleiro[3][3] = 2; // D4
-            tabuleiro[4][3] = 2; // E4
-            tabuleiro[5][3] = 2; // F4
 
             // Verifica se as posições para o Barco 2 estão livres
         if  (tabuleiro[3][3] == 0 && tabuleiro[4][3] == 0 && tabuleiro[5][3] == 0) {
@@ -50,11 +41,6 @@ int main() {
             printf("Erro: Não foi possível posicionar o Barco 2. Posições ocupadas.\n");
     }
 
-        //Posicionamento do barco 3 (Diagonal)
-            tabuleiro[3][0] = 3; // A5
-            tabuleiro[2][1] = 3; // A6
-            tabuleiro[1][2] = 3; // A7
-
             // Verifica se as posições para o Barco 3 estão livres
         if  (tabuleiro[3][0] == 0 && tabuleiro[2][1] == 0 && tabuleiro[1][2] == 0) {
             tabuleiro[3][0] = 3;
@@ -63,11 +49,6 @@ int main() {
         } else {
             printf("Erro: Não foi possível posicionar o Barco 3. Posições ocupadas.\n");
     }
-
-            //Posicionamento do barco 4 (Diagonal)
-            tabuleiro[7][6] = 4; // A5
-            tabuleiro[8][7] = 4; // A6
-            tabuleiro[9][8] = 4; // A7
 
             // Verifica se as posições para o Barco 4 estão livres
         if  (tabuleiro[7][6] == 0 && tabuleiro[8][7] == 0 && tabuleiro[9][8] == 0) {
